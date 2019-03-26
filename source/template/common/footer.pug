@@ -1,0 +1,64 @@
+footer.footer
+	.qContainer
+		.footerWrap
+			.footer__col
+				.footerLogo
+					a.footerLogo__link(href="#")
+						img.footerLogo__img(src="assets/img/logo.png" alt="")
+				ul.footerSmo
+					li.footerSmo__item
+						a.footerSmo__link(href="#")
+							.footerSmo__icon.icon-vk
+					li.footerSmo__item
+						a.footerSmo__link(href="#")
+							.footerSmo__icon.icon-facebook
+					li.footerSmo__item
+						a.footerSmo__link(href="#")
+							.footerSmo__icon.icon-twitter
+					li.footerSmo__item
+						a.footerSmo__link(href="#")
+							.footerSmo__icon.icon-ins
+				.footer__copy © ОOО «Группа компаний ИРА-ПРОМ», компания<br>МИР СЕЙФОВ, 2004 - 2018
+			.footer__col
+				.footerAddress
+					.footerAddress__title Адреса салонов
+					.footerAddress__items
+						| г. Москва:<br>
+						| +7 (495) 415-10-86<br>
+						| +7 (903) 212-93-23<br>
+						| Рублевское шоссе, д. 28, к.2
+					.footerAddress__items
+						| г. Санкт-Петербург:<br>
+						| +7 (812) 454-68-58<br>
+						| ул. Цветочная д.25А
+					.footerAddress__items
+						| Бесплатный по России:<br>
+						| +7 (800) 707-43-85
+			.footer__col
+				.footerMenu
+					.footerMenu__title Магазин
+					ul.footerMenu__items
+						each item in footerMenu2
+							li.footerMenu__item
+								a.footerMenu__link(href="#")=item.title
+			.footer__col
+				.footerMenu
+					.footerMenu__title Компания
+					ul.footerMenu__items
+						each item in footerMenu3
+							li.footerMenu__item
+								a.footerMenu__link(href="#")=item.title
+			.footer__col
+				.footerMenu
+					.footerMenu__title Информация
+					ul.footerMenu__items
+						each item in footerMenu1
+							li.footerMenu__item
+								a.footerMenu__link(href="#")=item.title
+
+
+
+
+
+
+
