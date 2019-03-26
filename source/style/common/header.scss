@@ -1,0 +1,196 @@
+.header {
+	position: relative;
+	height: 100%;
+}
+
+.headerTop {
+	position: absolute;
+	top: 15.9px;
+	left: 150px;
+	right: 150px;
+	display: flex;
+	color: #C3C7CD;
+}
+
+.headerTop__col {
+
+	display: flex;
+	align-items: center;
+	width: 205px !important;
+
+	&:nth-child(1) {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			right: 0;
+			content: '';
+			width: 1px;
+			height: 50px;
+			background-color: #53575F;
+		}
+	}
+
+	&:nth-child(2) {
+		padding-left: 31px;
+	}
+
+	&:nth-child(3) {
+		flex-grow: 1;
+		justify-content: center;
+	}
+
+	&:nth-child(4) {
+		justify-content: flex-end;
+	}
+
+	&:nth-child(5) {
+		justify-content: flex-end;
+	}
+}
+
+.headerMenu {
+	position: absolute;
+	top: 120px;
+	left: 150px;
+	right: 150px;
+	height: 55px;
+	background: #2E3136;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__link {
+	display: block;
+}
+
+.logo__img {
+	vertical-align: middle;
+	margin: 0 15px;
+}
+
+.logo__text {
+	font-weight: bold;
+	font-size: 13px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+.headerAddress {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.headerAddress__row {
+	width: 100%;
+	display: flex;
+}
+
+.headerAddress__link {
+	display: flex;
+	align-items: center;
+	font-size: 17px;
+	line-height: normal;
+	color: #C3C7CD;
+	text-decoration: none;
+	margin-bottom: 3px;
+
+	&:hover {
+
+	}
+
+	& span {
+		border-bottom: 1px solid #53575F;
+		line-height: 17px;
+		display: inline-block;
+		margin-left: 5px;
+	}
+
+	& .icon-addressArrow {
+		position: relative;
+		top: 2px;
+		left: 5px;
+	}
+}
+
+.headerAddressPopup {
+	display: none;
+}
+
+.headerAddress__text {
+	font-size: 14px;
+}
+
+.headerSearch__input {
+	font-size: 14px;
+	color: #C3C7CD;
+	border: 0;
+	background-color: transparent;
+	text-decoration-line: underline;
+	background-image: url("../img/search.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 30px;
+}
+
+.headerLogin {
+
+}
+
+.headerLogin__link {
+	background-image: url("../img/login.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 30px;
+	font-size: 14px;
+	text-decoration-line: underline;
+
+	color: #C3C7CD;
+}
+
+.headerLoginPopup {
+	display: none;
+}
+
+.headerContact {
+	text-align: right;
+}
+
+.headerContact__phone {
+	font-size: 17px;
+	text-align: right;
+	color: #C3C7CD;
+}
+
+.headerContact__callback {
+	display: inline-block;
+	font-size: 14px;
+	text-align: right;
+	text-decoration-line: underline;
+
+	color: #C3C7CD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

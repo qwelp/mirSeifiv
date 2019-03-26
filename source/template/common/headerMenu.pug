@@ -1,0 +1,60 @@
+.menuHor
+	.menuHor_col
+		ul.menuHor__items
+			each item, i in menuHor
+				li.menuHor__item
+					a.menuHor__link(href="#")=item.title
+					.menuHorSub
+						.menuHorSub__col
+							.menuHorSubWrap
+								.menuHorSubWrap__col
+									.menuHorSub__title По категории:
+									ul.menuHorSubItems
+										each item in menuHorSub1
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+								.menuHorSubWrap__col
+									.menuHorSub__title По категории:
+									ul.menuHorSubItems
+										each item in menuHorSub2
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(class=(item.style === 'blue') ? 'blue' : '')(href="#")=item.title
+						.menuHorSub__col
+							.menuHorSubWrap
+								.menuHorSubWrap__col
+									.menuHorSub__title По классу взломостойкости:
+									ul.menuHorSubItems
+										each item in menuHorSub3
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+									ul.menuHorSubItems
+										each item in menuHorSub4
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+							.menuHorSubWrap__line
+							.menuHorSubWrap
+								.menuHorSubWrap__col
+									.menuHorSub__title По классу огнестойкости:
+									ul.menuHorSubItems
+										each item in menuHorSub5
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+						.menuHorSub__col
+							.menuHorSubWrap
+								.menuHorSubWrap__col
+									.menuHorSub__title По типу замка:
+									ul.menuHorSubItems
+										each item in menuHorSub6
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+							.menuHorSubWrap
+								.menuHorSubWrap__col
+									ul.menuHorSubItems
+										each item in menuHorSub7
+											li.menuHorSubItems__item
+												a.menuHorSubItems__link(href="#")=item.title
+	.menuHor_col
+		a.headerCart(href="#")
+			.icon-cart
+			.headerCart__count 12
+// (class=(item.style === 'blue') ? 'blue' : '')

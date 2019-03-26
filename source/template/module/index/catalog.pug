@@ -1,0 +1,12 @@
+.qContainer
+	.catIndex
+		each section in catIndex
+			.catIndexSection
+				.catIndexSection__col
+					.catIndexSectionImg
+						img.catIndexSection__img(src=`${section.img}` alt="")
+				.catIndexSection__col
+					a.catIndexSection__link(href="#")=section.title
+					ul.catIndex__items
+						each item in section.items
+							li.catIndex__item=item.title

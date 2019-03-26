@@ -1,0 +1,207 @@
+.companySubscribe {
+	display: flex;
+	background: #EBEBEB;
+}
+
+.companySubscribe__col {
+
+	flex: 1;
+
+	&:first-child {
+		padding: 48px 0 48px 150px;
+	}
+
+	&:last-child {
+		background-image: url("../img/index/subscribe_bg.png");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+}
+
+.subscribeIndex__bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #2F3337;
+	opacity: 0.93;
+}
+
+.companyIndex__title {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 42px;
+	color: #282B30;
+}
+
+.companyIndexWrap {
+	display: flex;
+}
+
+.companyIndexWrap__col {
+
+	&:first-child {
+		width: 70%;
+	}
+
+	&:last-child {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.companyIndexWrap__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 28px;
+	color: #282B30;
+}
+
+.companyIndexInfo {
+	margin-top: -42px;
+}
+
+.companyIndexInfo__row {
+	margin-top: 42px;
+}
+
+.companyIndexInfo__count {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 62px;
+	color: #282B30;
+}
+
+.companyIndexInfo__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	color: #282B30;
+}
+
+.subscribeIndex {
+	position: relative;
+	z-index: 10;
+	padding: 100px 90px;
+}
+
+.subscribeIndex__info {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+}
+
+.subscribeIndex__title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: normal;
+	color: #FFFFFF;
+	margin-bottom: 38px;
+}
+
+.subscribeIndexPolicyCheckbox__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	color: #C3C7CD;
+}
+
+.subscribeIndex_btn {
+	width: 185px;
+	height: 55px;
+	background: #5E98AA;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: normal;
+	color: #FFFFFF;
+	border: 0;
+	cursor: pointer;
+}
+
+.subscribeIndexControl {
+	display: flex;
+	justify-content: space-between;
+	width: 470px;
+}
+
+.subscribeIndexPolicy {
+	display: flex;
+	align-items: center;
+}
+
+.subscribeIndexPolicy__col {
+
+}
+
+.subscribeIndexInput {
+	width: 470px;
+	height: 60px;
+	background: #595F65;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.subscribeIndex__text, .subscribeIndex__text::placeholder {
+	width: 100%;
+	box-sizing: border-box;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	color: #B9C1CD;
+	border: 0;
+	background: #595F65;
+}
+
+.subscribeIndexPolicyCheckbox {
+	position: relative;
+	margin-right: 20px;
+	width: 17px;
+	height: 17px;
+}
+
+.subscribeIndexPolicyCheckbox__style {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #5E98AA;
+}
+
+.subscribeIndexPolicyCheckbox__input {
+	display: none;
+
+	&:checked + .subscribeIndexPolicyCheckbox__style {
+		background: #5E98AA url("../img/index/checkbox_arrow.png") no-repeat center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+header.header
+	include ../module/index/banner
+	.headerTop
+		.headerTop__col
+			.headerAddress
+				.headerAddress__row
+					a.headerAddress__link(href="#")
+						| Салон в #[span Москве] #[.icon-addressArrow]
+					.headerAddressPopup #[a(href="#") Санкт- Петербурге]
+				.headerAddress__row
+					.headerAddress__text Рублевское шоссе, д.28, к.2
+		.headerTop__col
+			.headerSearch
+				input.headerSearch__input(type="text" name="q" id="search" placeholder="Поиск по сайту...")
+		.headerTop__col
+			.logo
+				.logo__col
+					.logo__text крупнейшие салоны
+				.logo__col
+					a.logo__link(href="#")
+						img.logo__img(src="assets/img/logo.png" alt="")
+				.logo__col
+					.logo__text сейфов из Европы
+		.headerTop__col
+			.headerLogin
+				a.headerLogin__link(href="#") Вход / Регистрация
+				.headerLoginPopup
+					a.headerLogin__link(href="#") Личный кабинет
+					a.headerLogin__link(href="#") Выйти
+		.headerTop__col
+			.headerContact
+				.headerContact__phone 8 (800) 707 43 85
+				.headerContact__phone 8 (495) 415 10 86
+				a.headerContact__callback(href="#") Обратный звонок
+	.headerMenu
+		include headerMenu
+
+
+

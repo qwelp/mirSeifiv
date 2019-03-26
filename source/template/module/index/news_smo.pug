@@ -1,0 +1,26 @@
+.qContainer
+	.newsSmoIndex
+		.newsSmoIndex__col
+			.newsIndex
+				.newsIndexTitle
+					.newsIndexTitle__col
+						.newsIndex__title Новости
+					.newsIndexTitle__col
+						a.newsIndexTitle__btn(href="#") Все новости
+				.newsIndex__items
+					each item in newsIndex
+						.newsIndex__item
+							.newsIndexImg
+								img.newsIndex__img(src=`${item.img}` alt="")
+							.newsIndex__item-title=item.title
+							a.newsIndex__link(href="#") Подробнее
+		.newsSmoIndex__col
+			.smoIndex
+				.smoIndexTabs
+					a.smoIndexTabs__link.active(href="#") Мы в Вконтакте
+					a.smoIndexTabs__link(href="#") Мы в Facebook
+				.smoIndexTab
+					.smoIndexTab__item.active
+						include vk
+					.smoIndexTab__item
+						include facebook
